@@ -1,0 +1,25 @@
+[ {
+  "Region" : "Central",
+  "total_sales" : 501239.8908000005,
+  "total_profit" : 39706.36249999998,
+  "num_clientes" : 629,
+  "ticket_promedio" : 215.77266069737416
+}, {
+  "Region" : "East",
+  "total_sales" : 678781.2399999979,
+  "total_profit" : 91522.78000000026,
+  "num_clientes" : 674,
+  "ticket_promedio" : 238.33610955056216
+}, {
+  "Region" : "South",
+  "total_sales" : 391721.9050000003,
+  "total_profit" : 46749.430300000065,
+  "num_clientes" : 512,
+  "ticket_promedio" : 241.8036450617284
+}, {
+  "Region" : "West",
+  "total_sales" : 725457.8245000006,
+  "total_profit" : 108418.44890000018,
+  "num_clientes" : 686,
+  "ticket_promedio" : 226.49323275054593
+} ]

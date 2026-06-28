@@ -1,0 +1,38 @@
+=====================================================
+QUERIES MONGODB ATLAS - Examen Final Big Data
+Base de datos: superstore_analytics
+=====================================================
+
+
+=====================================================
+QUERY 1 - Coleccion: resumen_categoria
+Categorias con ganancia mayor a 50,000
+ordenadas de mayor a menor ganancia
+=====================================================
+
+Stage 1 - $match:
+{ "total_profit": { "$gt": 50000 } }
+
+Stage 2 - $sort:
+{ "total_profit": -1 }
+
+
+Resultado:
+1. Technology      - total_profit: 145,454.95
+2. Office Supplies - total_profit: 122,490.80
+
+
+=====================================================
+QUERY 2 - Coleccion: resumen_region
+Regiones ordenadas por ticket promedio descendente
+=====================================================
+
+Stage 1 - $sort:
+{ "ticket_promedio": -1 }
+
+
+Resultado:
+1. South   - ticket_promedio: 241.80
+2. East    - ticket_promedio: 238.34
+3. West    - ticket_promedio: 226.49
+4. Central - ticket_promedio: 215.77
